@@ -1,10 +1,10 @@
-# Health Model
+# Healthcare Readmission Predictive Model
 
 This project creates a health model for analyzing and predicting health-related data. It predicts if a patient will be readmitted or not.
 
 ## Features
 
-- Data preprocessing and cleaning
+- Data preprocessing and cleaning (Public data available at:https://www.kaggle.com/datasets/dubradave/hospital-readmissions/data)
 - Model training
 - Model testing   
 
@@ -28,6 +28,6 @@ This project creates a health model for analyzing and predicting health-related 
 
 ## Project Structure
 
-- `data/`: Contains input datasets. After the prepare_data script is run two new files will be created fromt he original one: one for training, and one for testing.
+- `data/`: Contains input datasets. After the prepare_data script is run two new files will be created from the original one: one for training, and one for testing.
 - `model/`: Includes machine learning scripts and the model that will be saved after is trained.
-- `results/`: Stores generated results and visualizations after testign the model.
+- `results/`: Stores generated results and visualizations after testing the model.
